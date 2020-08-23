@@ -9,3 +9,12 @@ https://rapidapi.com/systran/api/systran-io-translation-and-nlp/details
 Youtube Link:
 
 https://www.youtube.com/watch?v=vruzbPvbWcQ&fbclid=IwAR14ol0H5ZfPNlciY9zB2J79H-IZANLGZzRJAbHVAmFIm66jHrebjAxsd28
+
+-src/main/java/com.example.messagingstompwebsocket
+	- /api:  μετάφραση μηνυμάτων
+	- /configuration:  websocket configuration 
+	- Database : Java classes/entities που αποτέλουν tables στην Mysql Καθώς και controllers που χειρίζονται την διαχείρηση μηνυμάτων και χρηστών και τα αντίστοιχα repositories
+-src/main/java/resources/application.properties καθορίζονται οι ρυθμίσεις για την σύνδεση με την βάση mysql
+
+Επίσης χρησιμοποιήθηκε το java sdk:1.8 και το gradle 6.2.2 ,
+Έχοντας εγκαταστήσει τα παραπάνω τρέχουμε gradle bootRun για το Build/Run.Για την μετάφραση τελικά χρησιμοποιήθηκε αυτό το api https://rapidapi.com/translated/api/mymemory-translation-memory.
